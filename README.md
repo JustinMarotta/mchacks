@@ -12,6 +12,8 @@ Archie Wyles,
 Bryan Melvison,
 Justin Marotta
 
+Front-end repo: https://github.com/archwyles/purplecow
+
 ## Inspiration
 We were inspired by Pokemon Go and Duolingo. We believe that exploring the world and learning a new language pair up well together. Associating new vocabulary with real experiences helps you learn better.
 
