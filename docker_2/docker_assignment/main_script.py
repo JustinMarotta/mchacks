@@ -7,6 +7,7 @@ import os
 # Set the path to your service account key file
 os.environ["GCLOUD_PROJECT"] = "purplecow-5bb60"
 
+
 # if __name__ == "__main__":
 
 def run_main(photoURI):

@@ -1,0 +1,14 @@
+Docker usage:
+
+Ensure gcloud applicaton credentials are present on machine by running the following in terminal: gcloud auth application-default login
+
+
+docker image build -t python:0.0.1 /Users/justin/Documents/Personal/projects/mchacks/docker_2/docker_assignment
+
+
+docker run -v "$HOME/.config/gcloud/application_default_credentials.json":/gcp/creds.json:ro --env GOOGLE_APPLICATION_CREDENTIALS=/gcp/creds.json -p 8080:8080 python:0.0.1
+
+
+Issue:
+-runs the code once, would prefer it starts container and awaits POST with images to analyze
+

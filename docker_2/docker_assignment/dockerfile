@@ -1,0 +1,26 @@
+#Deriving the latest base image
+FROM python:latest
+
+
+#Labels as key value pair
+LABEL Maintainer="justin.marotta"
+
+
+# Any working directory can be chosen as per choice like '/' or '/home' etc
+
+WORKDIR /Users/justin/Documents/Personal/projects/mchacks/backend
+
+#to COPY the remote file at working directory in container
+COPY requirements.txt ./
+COPY main_script.py ./
+COPY backend_functions.py ./
+RUN pip install -r requirements.txt
+
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+# Now the structure looks like this '/Users/justin/Documents/Personal/projects/mchacks/backend/main_script.py'
+
+
+#CMD instruction should be used to run the software
+#contained by your image, along with any arguments.
+
+CMD [ "python", "./main_script.py"]
