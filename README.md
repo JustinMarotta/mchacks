@@ -5,6 +5,13 @@
 
 ![d02dd0d969d86320f69d268fbf23fc129c0362ae0cf659a23db663383165aa78 - instasize](https://github.com/JustinMarotta/mchacks/assets/109969478/35c98575-3046-432f-be74-955402c0ef20)
 
+Created by:
+
+Adam Atamnia,
+Archie Wyles,
+Bryan Melvison,
+Justin Marotta
+
 ## Inspiration
 We were inspired by Pokemon Go and Duolingo. We believe that exploring the world and learning a new language pair up well together. Associating new vocabulary with real experiences helps you learn better.
 
